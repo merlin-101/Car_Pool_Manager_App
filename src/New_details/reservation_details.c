@@ -1,4 +1,4 @@
-#include "new_details.h"
+#include "New_details.h"
 
 struct RESERVATION create_reservation(int carID, int driverID, struct DateTime pickupDate, struct DateTime dropoffDate) {
 	struct RESERVATION newReservation;

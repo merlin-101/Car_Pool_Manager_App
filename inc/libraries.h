@@ -3,7 +3,7 @@
 
 #include <time.h>
 #include <stdio.h>
-#include <io.h>
+#include <unistd.h>
 #include <string.h>
 #include <stdlib.h>
 
@@ -55,6 +55,5 @@ struct RESERVATION {
 	struct DateTime pickupDate;
 	struct DateTime dropoffdate;
 };
-
 
 #endif

@@ -7,7 +7,7 @@ void	display_car_details(const struct CAR *car)
     printf("Model: %s\n", car -> model);
 	printf("Seats: %d\n", car -> seats);
 	printf("License Plate: %s\n", car -> licensePlate);
-	printf("Status: %s\n", car -> status);
-	printf("Current Autonomy: %%d\n", car -> currentAutonomy);
+	printf("Status: %d\n", car -> status);
+	printf("Current Autonomy: %d\n", car -> currentAutonomy);
 	//BLOP images missing !
 }
